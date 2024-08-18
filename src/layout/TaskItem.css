@@ -1,0 +1,21 @@
+.task{
+    display: flex;
+  flex-direction: column;
+    width: 80%;
+    margin-left: 5%;
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 2%;
+    color:rgb(186, 185, 185)
+}
+.item{
+    display: flex;
+    justify-content: space-between
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.check{
+    color: rgb(15, 215, 95);
+}
