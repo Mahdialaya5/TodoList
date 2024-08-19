@@ -8,7 +8,7 @@ function TaskList() {
   
   return (
     <div className='tasks'>
-       { data&& data.map((el)=> <TaskItem  el={el}   /> )} 
+       { data&&data.map((el)=> <TaskItem  el={el}  key={el.id} /> )} 
         
         </div>
   )
